@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS / Color Scheme -->
-    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
 
@@ -557,11 +557,11 @@ export class FeatherIconsPipe implements PipeTransform {
     <div class="container">
         <div class="row">
             <div class="col-md-10 mx-auto">
-                <h1 id="features" class="text-center text-md-left">Features of <span class="text-success">qwerty</span></h1>
+                <h1 id="features" class="text-center text-md-left"><span style="color:aquamarine;">Features of</span> <span class="text-success">qwerty</span></h1>
                 <div class="row feature-grid">
                     <div class="col-md-12 mx-auto">
                         <h1 class="text-center text-md-left" style="color:#ff4f19">No breaks just write it</h1>
-                        <p style="color: black; font-size: 1.5rem;">
+                        <p class="features-text" >
                             With the no breaks function you just type whatever comes out of your mind and 
                             qwerty will take care of the rest.
                         </p>
@@ -570,7 +570,7 @@ export class FeatherIconsPipe implements PipeTransform {
                     </div>
                     <div class="col-md-12 mx-auto">
                         <h1 class="text-center text-md-left" style="color:#ff4f19">Mark it</h1>
-                        <p style="color: black; font-size: 1.5rem;">
+                        <p class="features-text">
                            Create markers to more easily navigate through your script in no time
                         </p>
                         <!--img src="img/screen1.png" style="width:100%"alt=""-->
@@ -578,7 +578,7 @@ export class FeatherIconsPipe implements PipeTransform {
                     </div>
                     <div id="donate" class="col-md-12 mx-auto">
                         <h1 id="about" class="text-center text-md-left" style="color:#ff4f19">About qwerty</h1>
-                        <p style="color: black; font-size: 1.5rem;">
+                        <p class="text-p">
                            Qwerty was created with the intention of making screenwritting easy and accesible for everyone. It provides you
                            with the tools to write your own scripts without worrying about internet or even format. If you use the software and you enjoy it 
                            consider tipping the coders with a coffee or so. 
@@ -589,12 +589,12 @@ export class FeatherIconsPipe implements PipeTransform {
                     </div>
                     <div class="col-md-12 mx-auto">
                         <h1 id="windows" class="text-center text-md-left" style="color:#ff4f19">Windows installation note.</h1>
-                        <p style="color: black; font-size: 1.25rem;">
+                        <p class="text-p">
                             In Windows 10, once you click on the .exe installer file, the Microsoft Defender SmartScreen may be displayed. In that case, to install the application you have to click on 'More info' and then 'Run anyway'. Windows displays this alert window when an application has not yet been installed by a minimum number of users.
                             qwerty is a secure application and its code is signed with a digital certificate.
                         </p>
                         <img src="img/windows defender.png" style="width:initial; padding-left: 22%;"alt="">
-                        <p style="color: black; font-size: 1.25rem;">More info about <a href="https://discourse.world/h/2020/06/03/Windows-Defender-SmartScreen-harms-independent-developers"style="text-decoration:underline; color:#ff4f19">Microsoft Defender SmartScreen</a> and how it is hurting independent developers.</p>                 
+                        <p class="text-p">More info about <a href="https://discourse.world/h/2020/06/03/Windows-Defender-SmartScreen-harms-independent-developers"style="text-decoration:underline; color:#ff4f19">Microsoft Defender SmartScreen</a> and how it is hurting independent developers.</p>                 
                     </div>
                     <!--div class="col-sm-6">
                         <div class="media">
@@ -679,12 +679,12 @@ export class FeatherIconsPipe implements PipeTransform {
         <div class="row">
             <div class="col-md-12 mx-auto" style="margin-top: 3rem;">
                 <h1 id="contact" class="text-center text-md-left" style="color:#ff4f19">Contact</h1>
-                <p style="font-size: 1.25rem;">Join the Discrod server or send us an email in case you have any question or you found a bug.</p>
+                <p class="features-text">Join the Discrod server or send us an email in case you have any question or you found a bug.</p>
                 <div class="mt-5 d-flex flex-row justify-content-md-between flex-wrap press-icons">
                     <a href="https://discord.gg/wT8xPPxX">
                         <img src="img/pngegg.png" style="width: 10rem;" alt="Discord"/>
                     </a>
-                    <a>
+                    <a style="color: white;">
                         <img src="img/mail.png" style="width: 7.5rem;" alt="Mail"/>
                         theqwertyapp@gmail.com
                     </a>
@@ -698,7 +698,7 @@ export class FeatherIconsPipe implements PipeTransform {
 </section>
 
 <!--footer-->
-<footer class="py-5 bg-light">
+<footer class="py-5 bg-dark">
     <div class="container">
         <div class="row">
             <!--div class="col-12 text-center">

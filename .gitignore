@@ -1,2 +1,9 @@
 bootstrap.css
 .DS_Store
+node_modules
+src
+.babelrc
+gulpfile.js
+package-lock.json
+package.json
+webpack.config.js
